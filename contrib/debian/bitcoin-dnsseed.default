@@ -1,0 +1,10 @@
+# Defaults for bitcoin-dnsseed initscript
+# sourced by /etc/init.d/bitcoin-dnsseed
+# installed at /etc/default/bitcoin-dnsseed by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS=""

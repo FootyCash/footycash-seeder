@@ -1,0 +1,11 @@
+#!/bin/bash
+SEED=YOUNODEIP
+HOST=YOURHOSTNAME
+NAMESERVER=YOUNAMESERVERDOMANNAME
+P2PORT=17017
+MAGIC=17240832
+CRAWLER_THREADS=250
+DNSSERVER_THREADS=50
+
+cd ${HOME}/.dnsseed-footycash
+sudo nohup /pathto/footycash-seeder/dnsseed -h ${HOST} -n ${NAMESERVER} --p2port ${P2PORT} --magic ${MAGIC} --seed ${SEED}  -t ${CRAWLER_THREADS} -d ${DNSSERVER_THREADS} &

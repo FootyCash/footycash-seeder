@@ -1,0 +1,5 @@
+bitcoin-dnsseed (0.0.0+1beta1~precise1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Mark Friedenbach <mark@monetize.io>  Tue, 08 Oct 2012 19:15:23 -0700
